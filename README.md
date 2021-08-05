@@ -43,5 +43,22 @@ placeholder -> Hint for Input/Textarea tag\
 
 About Form = https://www.w3schools.com/html/html_form_input_types.asp 
 
+## CSS
+CSS -> Cascading Style Sheet
+Style Sheet -> A list of CSS Rules / Rule Sets
+Selector -> Target to style
+Declaration -> List of CSS
 
+<link rel="stylesheet" href="">
+
+Inline Element -> Don't take up any more room than their content need. Example : span, img, strong, em, a and more ...\
+
+Block-Level Elements _> Take up the whole width of a page regardless of content. Exampe : p, div, heading(h1-h6), ul, li, and more ...\
+
+### Margin & Padding
+Inline Element -> All side padding & Left-Right Margin \
+Block Element -> All side padding & All side Margin \
+Inline Block Element -> Like Block Element But Don't take up any more room than their content need
+
+ 
 
