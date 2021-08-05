@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <form>
+        <label for="username">Username : </label>
+        <input type="text" id="username" name="username" placeholder="Username">
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password" placeholder="Password">
+        
+        <p>Gender :</p>
+        <input type="radio" name="gender" id="option-1" value="male"><label for="option-1">Male</label><br>
+        <input type="radio" name="gender" id="option-2" value="male"><label for="option-2">Female</label><br>
+        <input type="radio" name="gender" id="option-3" value="male"><label for="option-3">Other</label><br>
+
+        <label for="">Security Question: </label>
+        <select name="question" id="question">
+            <option value="question-1">Siapa First LopeMu?</option>
+            <option value="question-2">Apa yang dimiliki manusia, tapi tidak dimiliki Tuhan?</option>
+            <option value="question-3">Kenapa Mawar itu Merah?</option>
+        </select>
+        <br>
+        <label for="answer">Answer Question :</label>
+        <input type="text" id="answer" name="answer">
+        <br>
+
+        <label for="bio">Your Bio: </label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Insert Your Bio ..."></textarea>
+
+        <br>
+        <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
